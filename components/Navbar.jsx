@@ -12,7 +12,7 @@ import SignupModal from "./auth/SignupModal";
 
 const Navbar = () => {
   return (
-    <div className="fixed w-full h-12 flex items-center justify-between px-5 py-8 border border-gray-300">
+    <div className="hidden fixed top-0 left-0 w-full h-12 sm:flex items-center justify-between px-5 py-8 border border-gray-300">
       <div>
         <Image src="/images/logo.png" alt="" width={120} height={120} />
       </div>
